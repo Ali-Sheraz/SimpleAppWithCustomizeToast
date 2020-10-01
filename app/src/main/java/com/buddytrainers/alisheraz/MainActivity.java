@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         convertedXml=objectLayoutInflater.inflate( R.layout.ali_cutsom_toast,null );
         Toast objectToast=new Toast(this);
         objectToast.setGravity(Gravity.FILL_HORIZONTAL, 0, 0);
-        objectToast.setDuration(Toast.LENGTH_LONG);
+        objectToast.setDuration(Toast.LENGTH_SHORT);
         objectToast.setView(convertedXml);
         objectToast.show();
     }
